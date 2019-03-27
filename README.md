@@ -1,9 +1,9 @@
 # One Page Zine
 
 Requires:
-  Python3
-  selenium (pip3 install selenium)
-  chromedriver
+- Python3
+- selenium (pip3 install selenium)
+- chromedriver
   
 Download the chromedriver from here:
 [Google chromedriver](https://sites.google.com/a/chromium.org/chromedriver/home)
