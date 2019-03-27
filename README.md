@@ -1,4 +1,4 @@
-#One Page Zine
+# One Page Zine
 
 Requires:
   Python3
@@ -9,7 +9,7 @@ Download the chromedriver from here:
 [Google chromedriver](https://sites.google.com/a/chromium.org/chromedriver/home)
 and unzip it in the git directory.
 
-##To Run
+## To Run
 Open terminal and run
 '''
 python3 selenium_get_img.py [your zine topic]
