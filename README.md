@@ -12,7 +12,7 @@ and unzip it in the git directory.
 ## To Run
 Open terminal and run
 '''
-python3 one_page_zine.py [your zine topic]
+python3 topic-zine.py [your zine topic]
 '''
 
 I use chrome to print these, if you go to:
@@ -22,4 +22,3 @@ file:///*your/path/to/git/repo*/1PGZ/1PGZ.html
 it's formatted to print, so you can just hit Ctrl+p and print the page!
 
 <3 ivy
-
