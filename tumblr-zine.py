@@ -9,8 +9,13 @@ def goFetch(q):
     print(chrome_path)
     driver = webdriver.Chrome(executable_path=chrome_path)
     driver.get('https://www.tumblr.com/search/' + q)
-    images = driver.find_elements_by_css_selector('img.photo')
+    images = driver.find_elements_by_tag_name('img')
     i = 1
+    skipper = 10
+    while skipper > 0:
+        images.pop(0)
+        skipper = skipper - 1
+    print("found " + str(len(images)) + " images")
     for image in images:
         src = image.get_attribute("src")
         if "gif" not in src:
@@ -23,7 +28,7 @@ def goFetch(q):
             print('**SKIPPED gif: ' + src)
         if i > 8:
             break
-    if i < 8:
+    if i < 9:
         print("***DID NOT FIND 8 IMAGES***")
     driver.close()
 
