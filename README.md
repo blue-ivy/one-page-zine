@@ -6,7 +6,7 @@ Requires:
 - chromedriver
   
 Download the chromedriver from here:
-[Google chromedriver](https://sites.google.com/a/chromium.org/chromedriver/home)
+[Google chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
 and unzip it in the git directory.
 
 ## To Run
